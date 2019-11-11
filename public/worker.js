@@ -10,6 +10,7 @@ const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
     '/saveform/index.html',
     '/saveform/dist/bundle.js',
+    '/saveform/public/'
    // Alias for index.html
 ];
 // The install handler takes care of precaching the resources we always need.
