@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    .loader {
+        height: 200px;
+    }
+    .error {
+        text-align: center;
+    font-size: 20px;
+    line-height: 100px;
+    color: #ff4040;
+    }
+}

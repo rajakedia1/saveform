@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  border: 1px solid #cdcdcd;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  .wrapper {
+    font-size: 20px;
+    
+    .title {
+      color: deepskyblue;
+      height: 35px;
+      line-height: 26px;
+    }
+    .details {
+      margin-bottom: 6px;
+      word-break: break-all;
+    }
+    .date {
+      font-size: 10px;
+      color: #cdcdcd;
+    }
+    .buttonwrapper {
+        padding: 15px 0;
+        width: 100%;
+        display: flex;
+        .button {
+            border: 1px solid #cdcdcd;
+            border-radius: 20px;
+            height: 20px;
+            font-size: 12px;
+            padding: 5px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-right: 10px;
+        }
+        .copy {
+            background: #00a2ed;
+        }
+        .edit {
+            background: #002147;
+        }
+        .delete {
+            background: #ff4040;
+        }
+    }
+    
+  }
+}
