@@ -3,7 +3,7 @@
     "name": "Save Form",
     "icons": [
       {
-        "src": "/img/icons.png",
+        "src": "public/img/icons.png",
         "type": "image/png",
         "sizes": "512x512"
       }
